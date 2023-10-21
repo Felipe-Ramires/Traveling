@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Traveling</title>
+</head>
+
+<body>
+    <div class="header">
+       
+        <div class="navbar">
+            <nav>
+                <img class="logo" src="Img/Logo.png" alt="logo">
+ 
+                <ul class="nav-list">
+                    <li><a class="link" href="">Home</a></li>
+                    <li><a class="link" href="">Sobre</a></li>
+                    <li><a class="link" href="">Destinos</a></li>
+                    <li><a class="link" href="">Blog</a></li>
+                </ul>
+                <div class="hamburger-button" onclick="toggleMenu()">&#9776;</div>
+
+            </nav>
+            <div class="title">
+                <p class="title1">DESCUBRA NOVOS DESTINOS</p>
+                <p class="title2">VIAJE AGORA</p>
+                <button class="button1">DESTINOS</button>
+            </div>
+           
+            <script>
+               function toggleMenu() {
+            var navList = document.querySelector(".nav-list");
+            if (navList.style.display === "none" || navList.style.display === "") {
+                navList.style.display = "flex";
+            } else {
+                navList.style.display = "none";
+            }
+        }
+            </script>
+
+        </div>
+    </div>
+    <div class="article">
+        <div class="highlights">
+            <div class="title-highlights">
+                <p class="text1">PRINCIPAIS DESTINOS TURISTICOS</p>
+                <p class="text2">2023</p>
+                <div class="highlights-country">
+                    <a href="#">
+
+                        <div class="country">
+                            <div class="name">
+                                <div class="type">
+                                    <p class="name-country">JAPÃO</p>
+                                    <p class="name-continent">ASIA</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+
+                    <a href="#">
+
+
+                        <div class="country2">
+                            <div class="name">
+                                <div class="type">
+                                    <p class="name-country">COSTA RICA</p>
+                                    <p class="name-continent">AMERICA</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+
+                    <a href="#">
+                        <div class="country3">
+                            <div class="name">
+                                <div class="type">
+                                    <p class="name-country">DINAMARCA</p>
+                                    <p class="name-continent">EUROPA</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#">
+                        <div class="country4">
+                            <div class="name">
+                                <div class="type">
+                                    <p class="name-country">ÁFRICA DO SUL</p>
+                                    <p class="name-continent">ÁFRICA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+                <a class="see-more" href="">
+                    <p class="text3">VEJA MAIS</p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="24"
+                        viewBox="0 0 30 34" fill="none">
+                        <path
+                            d="M29.3705 18.5008C30.2076 17.6707 30.2076 16.3226 29.3705 15.4926L18.6563 4.86755C17.8192 4.03748 16.4598 4.03748 15.6228 4.86755C14.7857 5.69763 14.7857 7.04568 15.6228 7.87576L22.6875 14.875H2.14286C0.957589 14.875 0 15.8246 0 17C0 18.1754 0.957589 19.125 2.14286 19.125H22.6808L15.6295 26.1242C14.7924 26.9543 14.7924 28.3023 15.6295 29.1324C16.4665 29.9625 17.8259 29.9625 18.6629 29.1324L29.3772 18.5074L29.3705 18.5008Z"
+                            fill="black" />
+                    </svg>
+                </a>
+                
+            </div>
+
+        </div>
+        <div class="qualities">
+            <p class="qualities-title">BENEFÍCIOS DE UTILIZAR</p>
+            <p class="qualities-title2">O TRAVELING</p>
+            <div class="benefits">
+                <div class="container">
+                    <p class="title-benefits">ACESSIBILIDADE</p>
+                    <p class="text-benefits">OS VIAJANTES PODEM ACESSAR INFORMAÇÕES SOBRE DESTINOS, ACOMODAÇÕES,
+                        ATIVIDADES E PREÇOS A QUALQUER MOMENTO, DE QUALQUER LUGAR, FACILITANDO O PLANEJAMENTO DE SUAS
+                        VIAGENS.</p>
+                    <img class="airplane-image" src="Img/aviao direita.png">
+                </div>
+                <div class="container2">
+                    <p class="title-benefits">Pesquisa e Comparação</p>
+                    <p class="text-benefits">OS SITES DE VIAGEM PERMITEM QUE OS VIAJANTES PESQUISEM E COMPAREM UMA AMPLA
+                        VARIEDADE DE OPÇÕES, TORNANDO MAIS FÁCIL ENCONTRAR A MELHOR OFERTA.</p>
+
+                </div>
+                <div class="container3">
+                    <p class="title-benefits">Inspiração</p>
+                    <p class="text-benefits">OS SITES DE VIAGEM FORNECEM INSPIRAÇÃO POR MEIO DE FOTOS, VÍDEOS,
+                        AVALIAÇÕES E INFORMAÇÕES DETALHADAS SOBRE DESTINOS, AJUDANDO OS VIAJANTES A ESCOLHEREM LUGARES
+                        PARA VISITAR.</p>
+                    <img class="airplane-image2" src="Img/aviao esquerda.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">  
+            <div class="text-footer">
+                <p class="footer-logo">traveling</p>
+                <p class="footer-address">Rua Ernesto Evans, 1118 São Paulo-SP08021-170</p>
+            </div>
+            <div class="text-footer">
+                <p class="footer-information">Sobre a empresa </p>
+                <ul class="information">
+                    <li><a href=""></a>Atendimento ao Cliente</li>
+                    <li><a href=""></a>Termos de Uso</li>
+                    <li><a href=""></a>Políticas de Privacidade</li>
+                    <li><a href=""></a>Blog do Viajantes sem Rumo</li>
+                    <li><a href=""></a>Outlat de Viagens</li>
+                </ul>
+            </div>
+            <div class="text-footer">
+                <p class="footer-information">Empresas parceiras </p>
+                <ul class="information">
+                    <li>Cometa</li>
+                    <li>Vai de Bus</li>
+                    <li>Decolar</li>
+                    <li>Gol</li>
+                </ul>
+            </div>
+            <div class="text-footer">
+                <p class="footer-information">destinos internacionais</p>
+                <ul class="information">
+                    <li>Américas</li>
+                    <li>Europa</li>
+                    <li>Oceania</li>
+                    <li>Africa</li>
+                    <li>Asia</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="line-footer">
+
+        <div class="copyright">
+            <p class="copyright-text">Copyright © Since 2023 | traveling world, por senac jundiaí </p>
+            <p class="copyright-text">• Todos os direitos reservados •</p>
+            <p class="copyright-text">Desenvolvido por time frontend</p>
+        </div>
+    </div>
+</body>
+
+</html>
