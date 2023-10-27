@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+body {
+    background: #EFF2F2;
+    overflow-x: hidden;
+}
+
+
+.link {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin-left: 35px;
+}
+
+.logo {
+    width: 188px;
+}
+
+header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%), url(img/background.png), lightgray 50% / cover no-repeat;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+}
+
+
+.title {
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    margin-top: 146px;
+    margin-left: 17%;
+}
+
+.title1 {
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.title2 {
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+}
+
+.button1 {
+    border-radius: 40px;
+    border: 3px solid #FFF;
+    background: rgba(217, 217, 217, 0.00);
+    width: 190px;
+    height: 52px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    color: #4F5B60;
+    background-color: #FFF;
+    font-weight: 700;
+    transform: translate(-0.10em, -0.10em);
+    box-shadow: 0.25em 0.25em #b6b7b7;
+}
+
+.button1:active {
+    transform: translate(0.10em, 0.10em);
+    box-shadow: 0.10em 0.10em #ffffff;
+}
+
+.title-article {
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    top: 8px;
+    position: relative;
+    margin-bottom: initial;
+}
+
+.title-article2 {
+    color: #0C81D7;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.treveling-box {
+    width: 321px;
+    height: 370px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.offer-img {
+    width: 323px;
+    height: 237px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.title-offer {
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.text-offer {
+    margin: initial;
+    line-height: 20.8px;
+}
+
+.offer-mr {
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+.offer-number {
+    position: relative;
+    bottom: 18px;
+}
+
+.text1 {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.text2 {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.text3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.ml-offer {
+    margin-left: 80px;
+}
+
+.mr-offer {
+    margin-right: 80px;
+}
+
+.mt-cont {
+    margin-top: 132px;
+}
+
+.offer {
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+
+.title-article-offer {
+    margin-left: 50px;
+}
+
+.year {
+    color: #000;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 28px;
+    align-items: flex-end;
+    display: inherit;
+}
+
+.line {
+    height: 1px;
+    background: #000;
+    opacity: initial;
+    position: relative;
+    bottom: 25px;
+}
+
+.destination {
+    width: 1125px;
+    height: 312px;
+    background: url(img/Japãoblur.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    border-radius: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destination2 {
+    width: 1125px;
+    height: 312px;
+    background: url(img/CostaRicablur.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    border-radius: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destination3 {
+    width: 1125px;
+    height: 312px;
+    background: url(img/Dinamarcablur.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    border-radius: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destination4 {
+    width: 1125px;
+    height: 312px;
+    background: url(img/AfricadoSulblur.png), lightgray 50% / cover no-repeat;
+    background-size: cover;
+    border-radius: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.country {
+    color: #FFF;
+    margin: initial;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.continent {
+    color: #FFF;
+    margin: initial;
+
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.flag {
+    width: 45px;
+    height: 28px;
+    margin-bottom: 10px;
+}
+
+.coun {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.footer {
+    margin-top: 250px;
+    width: 100%;
+    background: #3F7AC3;
+    color: #fff;
+    position: relative;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.text-footer {
+    flex-direction: column;
+    height: 190px;
+    margin: 25px;
+    justify-content: center;
+    width: 215px;
+}
+
+.text-footer2 {
+    flex-direction: column;
+    height: 155px;
+    margin: 50px;
+    margin-left: 100px;
+}
+
+.footer-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+}
+
+.footer-address {
+    width: 135px;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer-information {
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.information {
+    list-style: none;
+    font-family: Inter;
+    padding: initial;
+}
+
+.line-footer {
+    background: #FFF;
+    width: 1450px;
+    margin: 0 auto;
+    opacity: initial;
+}
+
+.copyright {
+    margin-top: 30px;
+    color: #FFF;
+    font-family: Inter;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.copyright-text {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+}
