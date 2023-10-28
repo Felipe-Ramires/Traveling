@@ -66,7 +66,10 @@ article {
     color: #495057;
     margin-top: 30px;
     padding-top: 20px;
-    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px; /* 142.857% */
+    letter-spacing: 3px
 }
 
 .info{
@@ -77,9 +80,13 @@ article {
 
 .info .r1 h6{   
     margin-left:45px ;
-    font-size: 18px;
     padding: 10px 0;
     color: #495057;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20.8px; 
+    letter-spacing: 3px;
 }
 
 .info .r1 i{
@@ -90,7 +97,7 @@ article {
 
 .info .r2 img{
     margin-left: 45px;
-    width: 70%;
+    width: 300px;
     height: 200px;
 }
 
@@ -102,6 +109,9 @@ article {
     border: 1px solid yellow;
     border-radius: 25px 0 25px 0px;
     transition: .2s ease-in;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
 }
 
 .info .r2 button:hover{
@@ -110,6 +120,12 @@ article {
 
 .explore-more{
     border-bottom: 2px solid #ccc;
+}
+
+.explore-more h3{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .explore-info{
