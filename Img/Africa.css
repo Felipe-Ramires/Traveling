@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap');
+
+
+body {
+    background: #EFF2F2;
+    overflow-x: hidden;
+}
+
+
+
+.link {
+    margin-left: 35px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.logo {
+    width: 188px;
+}
+
+header {
+    background:url(africa.img/Rectangle\ 133.png), lightgray 50% / cover no-repeat;
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    margin-top: 330px;
+    margin-left: 17%;
+}
+
+.title1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.title2 {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.button1 {
+    border-radius: 40px;
+    border: 3px solid #FFF;
+    background: rgba(217, 217, 217, 0.00);
+    width: 190px;
+    height: 52px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    color: #4F5B60;
+    background-color: #FFF;
+    font-weight: 700;
+    transform: translate(-0.10em, -0.10em);
+    box-shadow: 0.25em 0.25em #b6b7b7;
+}
+
+.button1:active {
+    transform: translate(0.10em, 0.10em);
+    box-shadow: 0.10em 0.10em #ffffff;
+}
+
+.marg-l {
+    margin-left: 20px;
+}
+.frase-Africa{
+    font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+}
+.texto-Africa{
+    font-family: Inter;
+font-size: 21px;
+font-style: normal;
+font-weight: 300;
+
+}
+.linha{
+    width: 170px;
+    height: 3px;
+    background: #223f89;
+    opacity:initial;
+}
+.Caixa{
+    width: 315px;
+height: 372px;
+
+}
+.titulo{
+    font-family: Inter;
+font-size: 27px;
+font-style: normal;
+font-weight: 300;
+margin: initial;
+}
+.imagem{
+    
+width: 300px;
+height: 292.5px;
+background: url(img/africa.img/trasnportes.png), lightgray 50% / cover no-repeat;
+}
+.imagem2{
+    
+width: 300px;
+height: 292.5px;
+background: url(img/africa.img/Culinaria.png), lightgray 50% / cover no-repeat;
+}
+.imagem3{
+    
+width: 300px;
+height: 292.5px;
+background: url(img/africa.img/Atrações.png), lightgray 50% / cover no-repeat;
+}
+.imagem4{
+    
+width: 300px;
+height: 292.5px;
+background: url(img/africa.img/Hoteis.png), lightgray 50% / cover no-repeat;
+}
+.saiba-mais{
+    width: 217.5px;
+height: 64.5px;
+background: #FBCD00;
+position: relative;
+left: 15px;
+}
+.saiba-texto{
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    margin: initial;
+
+}
+.textomais-africa{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+   
+    
+}
