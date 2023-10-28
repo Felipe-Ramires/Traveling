@@ -1,0 +1,55 @@
+#{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+
+}
+body{
+    background: ##EFF2F;
+
+}
+
+.s-m{
+    position:
+    top: 50%;
+    left: 50%;
+    transform: translate( 50%, 50%);
+}
+
+.s-m a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: #6BB2C1;
+    color: white;
+    margin: 0 3px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+.s-m a:hover{
+    background: #34495e;
+
+}
+.s-ma i{
+
+    transition: 0.5s;
+}
+
+.s-m a:hover{
+    transform: scale(1.4) rotate(26deg);
+
+}
+    
+
+
+
+
+
+
+
