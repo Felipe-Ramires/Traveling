@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(landscape-rio-de-janeiro-surrounded-by-sea-blue-sky-brazil\ 2.png), lightgray 50% / cover no-repeat;
+    background:url(landscape-rio-de-janeiro-surrounded-by-sea-blue-sky-brazil\ 2.png), lightgray 50% / cover no-repeat;
     width: 100%;
     height: 650px;
     background-position: center;
