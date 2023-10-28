@@ -1,0 +1,77 @@
+header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), url(imagemJapao/santuario-de-fushimi-inari-em-kyoto-japao.jpg), lightgray 50% / cover no-repeat;
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.logo {
+    width: 188px;
+}
+
+body {
+    background: #EFF2F2;
+    overflow-x: hidden;
+}
+
+.link {
+    margin-left: 35px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.title1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.title2 {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+}
+
+
+.button1 {
+    border-radius: 40px;
+    border: 3px solid #FFF;
+    background: rgba(217, 217, 217, 0.00);
+    width: 190px;
+    height: 52px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    color: #4F5B60;
+    background-color: #FFF;
+    font-weight: 700;
+    transform: translate(-0.10em, -0.10em);
+    box-shadow: 0.25em 0.25em #b6b7b7;
+}
+
+.button1:active {
+    transform: translate(0.10em, 0.10em);
+    box-shadow: 0.10em 0.10em #ffffff;
+}
+
+.marg-l {
+    margin-left: 20px;
+}
+
+.gap-country {
+    gap: 30px;
+}
