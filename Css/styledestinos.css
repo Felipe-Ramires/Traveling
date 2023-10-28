@@ -175,10 +175,6 @@ header {
     justify-content: center;
 }
 
-.title-article-offer {
-    margin-left: 50px;
-}
-
 .year {
     color: #000;
     font-family: Inter;
@@ -246,7 +242,7 @@ header {
     color: #FFF;
     margin: initial;
     font-family: Inter;
-    font-size: 64px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 700;
 }
@@ -269,9 +265,9 @@ header {
 
 .coun {
     display: flex;
-    flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
+
 }
 
 
