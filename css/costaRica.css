@@ -66,7 +66,10 @@ article {
     color: #495057;
     margin-top: 30px;
     padding-top: 20px;
-    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px; /* 142.857% */
+    letter-spacing: 3px
 }
 
 .info{
@@ -77,9 +80,13 @@ article {
 
 .info .r1 h6{   
     margin-left:45px ;
-    font-size: 18px;
     padding: 10px 0;
     color: #495057;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20.8px; 
+    letter-spacing: 3px;
 }
 
 .info .r1 i{
@@ -90,7 +97,7 @@ article {
 
 .info .r2 img{
     margin-left: 45px;
-    width: 70%;
+    width: 300px;
     height: 200px;
 }
 
@@ -102,6 +109,9 @@ article {
     border: 1px solid yellow;
     border-radius: 25px 0 25px 0px;
     transition: .2s ease-in;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
 }
 
 .info .r2 button:hover{
@@ -110,6 +120,12 @@ article {
 
 .explore-more{
     border-bottom: 2px solid #ccc;
+}
+
+.explore-more h3{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .explore-info{
@@ -233,20 +249,26 @@ a {
     display: flex;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1300px){
     .info .r1 i{
-        margin-right: 90px;
+        margin: 10px 40px 25px 10px;
     }
+
+    .info .r1 h6{
+        font-size: 25px;
+        margin: 10px 0px 10px 0;
     
+    }
+
     .info .r2 img{
-        margin-right: 90px;
-        width: 80%;
-        height: 200px;
+        margin: 15px 60px 25px 0;
+        width: 100%;
+        height: 300px;
     }
     
     .info .r2 button{
         position: relative;
-        top: -180px;
+        top: -320px;
         left: 40px;
         background-color: yellow;
         border: 1px solid yellow;
@@ -255,15 +277,109 @@ a {
     }
 }
 
-@media screen and (max-width: 790px){
+@media screen and (max-width: 1000px){
     .info .r1 i{
-        margin-right: 0px;
+        margin: 10px 40px 25px 10px;
+    }
+
+    .info .r1 h6{
+        font-size: 25px;
+        margin: 10px 0px 10px 0;
+    
+    }
+
+    .info .r2 img{
+        margin: 15px 60px 25px 0;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .info .r2 button{
+        position: relative;
+        top: -310px;
+        left: 40px;
+        background-color: yellow;
+        border: 1px solid yellow;
+        border-radius: 25px 0 25px 0px;
+        transition: .2s ease-in;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .info .r1 i{
+        margin: 10px 40px 25px 10px;
+    }
+    .info .r1 h6{
+        font-size: 20px;
+        margin: 10px 0px 10px 0;
     }
     
     .info .r2 img{
         margin-right: 95px;
-        width: 70%;
-        height: 200px;
+        width: 100%;
+        height: 280px;
+        margin: 15px 60px 25px 0;
+    }
+    
+    .info .r2 button{
+        position: relative;
+        top: -280px;
+        left: 20px;
+        background-color: yellow;
+        border: 1px solid yellow;
+        border-radius: 25px 0 25px 0px;
+        transition: .2s ease-in;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 780px){
+    .info .r1 i{
+        margin: 10px 40px 25px 10px;
+    }
+
+    .info .r1 h6{
+        font-size: 16px;
+        margin: 15px 20px 15px 0;
+    
+    }
+    
+    .info .r2 img{
+        margin-right: 95px;
+        width: 80%;
+        height: 220px;
+        margin: 10px 0px 10px 0;
+    }
+    
+    .info .r2 button{
+        position: relative;
+        top: -230px;
+        left: 20px;
+        background-color: yellow;
+        border: 1px solid yellow;
+        border-radius: 25px 0 25px 0px;
+        transition: .2s ease-in;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .info .r1 i{
+        margin: 10px 40px 25px 10px;
+    }
+
+    .info .r1 h6{
+        font-size: 16px;
+        margin: 15px 20px 15px 0;
+    
+    }
+    
+    .info .r2 img{
+        margin-right: 95px;
+        width: 80%;
+        height: 180px;
+        margin: 10px 0px 10px 0;
     }
     
     .info .r2 button{
@@ -274,6 +390,6 @@ a {
         border: 1px solid yellow;
         border-radius: 25px 0 25px 0px;
         transition: .2s ease-in;
+        font-size: 15px;
     }
 }
-
