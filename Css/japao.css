@@ -169,7 +169,46 @@ left: 15px;
     
 }
 
+/* @media (min-width: 768px) {
+    .carousel-inner {
+      display: flex;
+    }
+    .carousel-item {
+      margin-right: 0;
+      display: block;
+    }
+  }
+ 
+ 
+.carouselExample{
+    width: 1152px;
+height: 193px;
+} */
 
+.assine{
+    font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 300;
+}
+
+.e-mail{
+    width: 625px;
+
+    border-radius: 9px;
+border: 2px solid #D9D9D9;
+
+background: #FFFAFA;
+}
+
+.botao{
+    width: 150px;
+
+color: #FFF;
+    border-radius: 29.25px;
+background: #223F89;
+margin-left: 35px;
+}
 
 
 
